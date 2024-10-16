@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa7d1eb-1fae-44ac-97c1-e1d89c3e8738" name="Changes" comment="implementation of the Chain of Responsibility package with Command Pattern without Waiter &amp; OrderHandler">
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/OrderMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/еtrash/Barman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/еtrash/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/еtrash/Hall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/еtrash/SushiChef.java" afterDir="false" />
+    <list default="true" id="6aa7d1eb-1fae-44ac-97c1-e1d89c3e8738" name="Changes" comment="implementation of the Chain of Responsibility package with Mediator Pattern without &quot;trash&quot; classes">
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibilityWithIterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibilityWithIterator/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibilityWithIterator/TaskCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibilityWithIterator/TaskIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728653750044</updated>
       <workItem from="1728653751124" duration="262000" />
-      <workItem from="1729057971873" duration="4997000" />
+      <workItem from="1729057971873" duration="5511000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -106,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729071483803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementation of the Chain of Responsibility package with Mediator Pattern without &quot;trash&quot; classes">
+      <option name="closed" value="true" />
+      <created>1729072023534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729072023534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +119,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="implementation of the Chain of Responsibility pattern" />
     <MESSAGE value="implementation of the Chain of Responsibility package with Command Pattern without Waiter &amp; OrderHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation of the Chain of Responsibility package with Command Pattern without Waiter &amp; OrderHandler" />
+    <MESSAGE value="implementation of the Chain of Responsibility package with Mediator Pattern without &quot;trash&quot; classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of the Chain of Responsibility package with Mediator Pattern without &quot;trash&quot; classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
