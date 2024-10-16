@@ -1,4 +1,4 @@
-package IthIterator;
+package Iterator;
 
 public interface TaskIterator {
     boolean hasNext();

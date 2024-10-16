@@ -1,4 +1,4 @@
-package IthIterator;
+package Iterator;
 
 public class Task {
     private String taskName;
