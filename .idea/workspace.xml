@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa7d1eb-1fae-44ac-97c1-e1d89c3e8738" name="Changes" comment="implementation of the Chain of Responsibility pattern">
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/Barman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/DrinkOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/Hall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/HotDishOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/OrderHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/SushiChef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/SushiOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithCommand/Waiter.java" afterDir="false" />
+    <list default="true" id="6aa7d1eb-1fae-44ac-97c1-e1d89c3e8738" name="Changes" comment="implementation of the Chain of Responsibility package with Command Pattern without Waiter &amp; OrderHandler">
+      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/OrderMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfRresponsibilityWithMediator/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/еtrash/Barman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/еtrash/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/еtrash/Hall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/еtrash/SushiChef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/adilforest/Downloads/SDP/Assignment_3_SDP/src ",
+    "last_opened_file_path": "/Users/adilforest/Downloads/SDP/Assignment_3_SDP/sosi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,10 +62,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sosi" />
       <recent name="$PROJECT_DIR$/src " />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/chainOfRresponsibility" />
     </key>
   </component>
@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728653750044</updated>
       <workItem from="1728653751124" duration="262000" />
-      <workItem from="1729057971873" duration="3848000" />
+      <workItem from="1729057971873" duration="4997000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -98,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729060050714</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implementation of the Chain of Responsibility package with Command Pattern without Waiter &amp; OrderHandler">
+      <option name="closed" value="true" />
+      <created>1729071483803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729071483803</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="implementation of the Chain of Responsibility pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation of the Chain of Responsibility pattern" />
+    <MESSAGE value="implementation of the Chain of Responsibility package with Command Pattern without Waiter &amp; OrderHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of the Chain of Responsibility package with Command Pattern without Waiter &amp; OrderHandler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
