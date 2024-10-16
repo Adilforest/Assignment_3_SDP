@@ -3,7 +3,7 @@ package chainOfRresponsibility;
 
 public class Barman extends OrderHandler {
     public Barman() {
-        this.handlerPriority = 3; // Низший приоритет
+        this.handlerPriority = 3;
     }
 
     @Override

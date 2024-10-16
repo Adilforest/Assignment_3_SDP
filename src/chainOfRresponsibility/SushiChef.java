@@ -2,7 +2,7 @@ package chainOfRresponsibility;
 
 public class SushiChef extends OrderHandler {
     public SushiChef() {
-        this.handlerPriority = 2; // Второй приоритет
+        this.handlerPriority = 2;
     }
 
     @Override

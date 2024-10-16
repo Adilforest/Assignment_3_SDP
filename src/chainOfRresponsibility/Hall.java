@@ -4,16 +4,14 @@ public class Hall {
     private OrderHandler handler;
 
     public Hall() {
-        // Создание цепочки обработчиков
         Chef chef = new Chef();
         SushiChef sushiChef = new SushiChef();
         Barman barman = new Barman();
 
-        // Установка цепочки с учётом приоритетов
         chef.setNextHandler(sushiChef);
         sushiChef.setNextHandler(barman);
 
-        handler = chef;  // Цепь начинается с повара
+        handler = chef;
     }
 
     public void takeOrder(String orderType) {
